@@ -153,3 +153,7 @@ A = i + b/2 -1
 
 
 // No of lattice points on a line (x1,y1) (x2,y2) == gcd(dx,dy)+1
+
+
+a/b mod m = (a mod bm) / b
+// helps when m and b are not coprime
