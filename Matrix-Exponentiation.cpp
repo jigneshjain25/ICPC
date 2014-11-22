@@ -24,7 +24,7 @@ matrix mul(matrix A,matrix B)
 }
 
 // returns power of matrix m^n
-matrix pow(matrix n, int m){
+matrix pow(matrix n, ll m){
     if(m == 1) return n;
     if(m & 1)
         return mul(n,pow(n,m-1));
